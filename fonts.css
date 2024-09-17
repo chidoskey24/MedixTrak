@@ -1,0 +1,14 @@
+@font-face {
+    font-family: grifter;
+    src: url(./assests/fonts/GRIFTER\ Bold\ 700.otf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assests/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: aeonik;
+    src: url(./assests/fonts/Aeonik-Medium.otf);
+}
