@@ -201,7 +201,6 @@ section.first {
 
 section.second {
     padding: 0 80px 121px;
-    top: 809px;
     display: flex;
     flex-direction: column;
     gap: 100px;
