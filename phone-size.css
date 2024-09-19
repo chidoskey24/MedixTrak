@@ -36,8 +36,8 @@
 
             span {
                 font-size: 2.38rem;
-                line-height: 2.8rem;
-                padding: 0 8px;
+                line-height: 2.5rem;
+                padding: 0 4px;
             }
         }
 
@@ -67,11 +67,11 @@
         div.box-empower {
 
             div.logos {
-                
-                display: block;
-
+                display: flex;
+                gap: 20px;
                 img {
-                    display: block;
+                    width: 100px;
+
                 }
 
             }
