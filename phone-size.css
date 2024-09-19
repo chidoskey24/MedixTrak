@@ -1,7 +1,20 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
     header {
-        display: none;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+
+        ul {
+            display: none;
+        }
+
+        div.opt {
+            display: none;
+        }
+
+
     }
 
 
@@ -86,7 +99,7 @@
                 
 
                 h2 {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                     line-height: 3.6rem;
                 }
 
@@ -107,7 +120,7 @@
 
                 img {
                     margin-bottom: 10px;
-                    width: calc(100%);
+                    width: 100%;
                 }
 
                 h2 {
@@ -129,7 +142,7 @@
 
             #hosp-cards {
                 display: block;
-                gap: 80px;
+                gap: 0;
             }
 
 
@@ -158,7 +171,7 @@
         h1 {
             text-align: center;
             font-family: grifter;
-            font-size: 2.3rem;
+            font-size: 2.1rem;
             line-height: 57.6px;
             font-weight: 700;
             color: rgba(19, 2, 2, 1);
@@ -168,7 +181,7 @@
 
         div.card2 {
             display: block;
-            gap: 41px;
+            gap: 0;
 
 
             h2 {
@@ -257,11 +270,12 @@
 
     section.fourth {
         gap: 8px;
-        padding: 0;
+        padding: 0 40px;
+        margin-bottom: 104px;
 
         h1 {
             font-family: grifter;
-            font-size: 48px;
+            font-size: 2rem;
             line-height: 57.6px;
             margin-bottom: ;
         }
@@ -308,7 +322,7 @@
 
     section.fifth {
         padding: 0;
-
+        margin-bottom: 100px;
 
         div.get-box {
             background-color: rgba(249, 215, 215, 0.2);
@@ -316,7 +330,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 100px 0;
+            padding: 100px 10px;
             border-radius: 16px;
 
             div.get-started {
@@ -325,7 +339,7 @@
 
                 h1 {
                     font-family: grifter;
-                    font-size: 48px;
+                    font-size: 2rem;
                     line-height: 50.16px;
                     margin-bottom: 20px;
 
@@ -390,9 +404,9 @@
 
 
     section.sixth {
-        padding: 0;
+        padding: 0 40px;
         display: block;
-        gap: 312px;
+        gap: 0;
         margin-bottom: 60.98px;
 
         div.top {
@@ -403,15 +417,17 @@
 
             p {
                 font-family: inter;
-                font-size: 17.5px;
-                line-height: 21.18px;
+                font-size: 1rem;
+                line-height: 1.1rem;
                 color: rgba(139, 139, 139, 1);
+                width: 100%;
+                margin-bottom: 50px;
             }
         }
 
         div.navs {
             display: flex;
-            gap: 161.5px;
+            gap: 120px;
 
 
             ul {
@@ -433,11 +449,8 @@
                 li {
                     display: flex;
                     align-items: center;
-                    gap: 8px;
-                    font-family: inter;
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: rgba(89, 89, 89, 1);
+                    font-size: 1rem;
+                    line-height: 1.1rem;
                 }
             }
         }
@@ -455,7 +468,7 @@
 
 
     footer {
-        padding: 60.02px 80px 60.98px;
+        padding: 60.02px 40px 60.98px;
         display: flex;
         justify-content: space-between;
 
