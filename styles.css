@@ -83,7 +83,7 @@ header {
 section.first {
     display: flex;
     gap: 260px;
-    padding: 0 0 0 80px;
+    padding-left: 80px;
     margin-bottom: 122px;
 
     h3 {
@@ -165,7 +165,6 @@ section.first {
 
         div.logos {
             display: flex;
-            
             gap: 60px;
 
             img {
