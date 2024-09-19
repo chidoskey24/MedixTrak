@@ -136,6 +136,7 @@ section.first {
 
         button.sign2 {
             border: 0;
+            border-radius: 40px;
             background-color: white;
             color: black;
             padding: 12px 24px;
