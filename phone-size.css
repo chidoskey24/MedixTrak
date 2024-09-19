@@ -1,12 +1,5 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
-    html {
-        width: 100%;
-    }
-
-    body {
-        width: 100%;
-    }
 
 
     header {
@@ -16,36 +9,35 @@
 
     section.first {
         display: block;
-        padding: 0;
+        padding: 40px;
+        justify-content: center;
+        margin-bottom: 110px;
+        gap: 0;
 
         h3 {
-            margin-top: 103px;
-            font-size: 38px;
-            font-family: grifter;
-            line-height: 68.06px;
-            font-weight: 400px;
-            margin-bottom: 24px;
+            margin-top: 50px;
+            font-size: 36px;
+            line-height: 40px;
 
             span {
                 color: rgba(239, 66, 57, 1);
                 font-family: grifter;
                 font-size: 38px;
-                line-height: 68.09px;
+                line-height: 45px;
                 font-weight: 700;
                 background-color: rgba(239, 66, 57, 0.1);
                 border-radius: 4px;
-                padding: 0 8.51px;
+                padding: 0 8px;
             }
         }
 
         p.text {
-            height: 81px;
-            font-size: 18px;
+            font-size: 17px;
             line-height: 27px;
             font-weight: 400;
             font-family: inter;
             color: rgba(89, 89, 89, 1);
-            margin-bottom: 41px;
+            margin-bottom: 35px;
         }
 
         div.opts {
@@ -58,7 +50,7 @@
                 border-radius: 40px;
                 background-color: rgba(239, 66, 57, 1);
                 color: white;
-                padding: 16px 24px;
+                padding: 12px 20px;
                 font-family: inter;
                 font-size: 18px;
                 line-height: 21.78px;
@@ -87,9 +79,7 @@
             gap: 16px;
 
             p.empower {
-                font-family: inter;
                 font-size: 16px;
-                font-weight: 400px;
                 line-height: 24px;
                 height: 24px;
                 color: rgba(89, 89, 89, 1);
@@ -97,25 +87,8 @@
             }
 
             div.logos {
-                display: flex;
-                height: 38.4px;
-                gap: 60px;
+                display: block;
 
-                img {
-                    height: 38.4px;
-
-                    /* .attentive {
-                        width: 112.8px;
-                    }
-
-                    .culture {
-                        width: 160.8px;
-                    }
-
-                    .maze {
-                        width: 113.6px;
-                    } */
-                }
             }
         }
 

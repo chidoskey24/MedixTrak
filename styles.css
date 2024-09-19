@@ -107,7 +107,6 @@ section.first {
     }
 
     p.text {
-        height: 81px;
         font-size: 18px;
         line-height: 27px;
         font-weight: 400;
@@ -166,11 +165,10 @@ section.first {
 
         div.logos {
             display: flex;
-            height: 38.4px;
+            
             gap: 60px;
 
             img {
-                height: 38.4px;
 
                 /* .attentive {
                     width: 112.8px;
