@@ -361,6 +361,10 @@
                         padding: 0 8.51px;
                         font-size: 56.72px;
                         line-height: 68.06px;
+
+                        h1 {
+                            text-align: center;
+                        }
                     }
 
                 }
