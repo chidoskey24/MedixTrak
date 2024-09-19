@@ -78,7 +78,7 @@ header {
         }
     }
 
-    i {
+    div.icon {
         display: none;
     }
 }
