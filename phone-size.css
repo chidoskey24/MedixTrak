@@ -1,7 +1,5 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
-
-
     header {
         display: none;
     }
@@ -9,14 +7,14 @@
 
     section.first {
         display: block;
-        padding: 40px;
+        padding-left: 40px;
         justify-content: center;
         margin-bottom: 110px;
         gap: 0;
 
         h3 {
             margin-top: 50px;
-            font-size: 36px;
+            font-size: 35px;
             line-height: 40px;
 
             span {
@@ -99,7 +97,7 @@
 
 
         div.right-container {
-            
+            overflow-x: hidden;
         }
     }
 
