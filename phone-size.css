@@ -158,7 +158,7 @@
         h1 {
             text-align: center;
             font-family: grifter;
-            font-size: 48px;
+            font-size: 2.3rem;
             line-height: 57.6px;
             font-weight: 700;
             color: rgba(19, 2, 2, 1);
@@ -173,14 +173,16 @@
 
             h2 {
                 font-family: grifter;
-                font-size: 20px;
+                font-size: 1.5rem;
                 line-height: 27px;
                 font-weight: 700;
+                margin-bottom: 50px;
             }
 
 
             img {
                 border-radius: 12px;
+                width: 100%;
             }
         }
 
@@ -212,7 +214,7 @@
 
     div.cards {
         background-color: rgba(19, 2, 2, 1);
-        padding: 42px 80px 96.92px 80px;
+        padding: 42px 40px 96.92px 40px;
         margin-bottom: 121px;
 
         div.grid {
@@ -224,7 +226,7 @@
             div {
                 background-color: rgba(246, 246, 246, 1);
                 border-radius: 15.91px;
-                padding: 39.77px 0 52.01px 31.94px;
+                padding: 20px;
 
 
                 img {
@@ -394,7 +396,6 @@
         margin-bottom: 60.98px;
 
         div.top {
-            gap: 28px;
 
             img {
                 margin-bottom: 28px;
@@ -405,7 +406,6 @@
                 font-size: 17.5px;
                 line-height: 21.18px;
                 color: rgba(139, 139, 139, 1);
-                width: 462px;
             }
         }
 
