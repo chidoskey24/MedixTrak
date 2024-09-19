@@ -363,7 +363,8 @@
                         line-height: 68.06px;
 
                         h1 {
-                            text-align: center;
+                            display: flex;
+                            align-items: center;
                         }
                     }
 
