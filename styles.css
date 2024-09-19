@@ -91,7 +91,7 @@ section.first {
         font-size: 56.72px;
         font-family: grifter;
         line-height: 68.06px;
-        font-weight: 400px;
+        font-weight: 400;
         margin-bottom: 24px;
 
         span {
@@ -116,7 +116,6 @@ section.first {
     }
 
     div.opts {
-        gap: 8px;
         margin-bottom: 37px;
         
         
@@ -127,9 +126,9 @@ section.first {
             color: white;
             padding: 16px 24px;
             font-family: inter;
-            font-size: 18px;
-            line-height: 21.78px;
-            font-weight: 500px;
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            font-weight: 500;
             cursor: pointer;
 
         }
@@ -141,59 +140,37 @@ section.first {
             color: black;
             padding: 12px 24px;
             font-family: inter;
-            font-size: 18px;
-            line-height: 21.78px;
-            font-weight: 500px;
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            font-weight: 500;
             cursor: pointer;
         }
     }
 
 
     div.box-empower {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
 
         p.empower {
             font-family: inter;
-            font-size: 16px;
-            font-weight: 400px;
-            line-height: 24px;
-            height: 24px;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
             color: rgba(89, 89, 89, 1);
+            margin-bottom: 16px;
     
         }
 
         div.logos {
             display: flex;
-            gap: 60px;
-
-            img {
-
-                /* .attentive {
-                    width: 112.8px;
-                }
-
-                .culture {
-                    width: 160.8px;
-                }
-
-                .maze {
-                    width: 113.6px;
-                } */
-            }
+            gap: 60px;         
         }
     }
 
 
     div.right-container {
         margin-top: 56px;
-
-        img {
-            width: 640px;
-            height: 631px;
-        }
     }
+    
 }
 
 
