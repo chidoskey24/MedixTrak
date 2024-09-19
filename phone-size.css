@@ -1,8 +1,16 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
+    html {
+        width: 100%;
+    }
 
     body {
         width: 100%;
+    }
+
+
+    header {
+        display: none;
     }
 
 
@@ -10,11 +18,115 @@
         display: block;
         padding: 0;
 
-
         h3 {
-            
+            margin-top: 103px;
+            font-size: 38px;
+            font-family: grifter;
+            line-height: 68.06px;
+            font-weight: 400px;
+            margin-bottom: 24px;
+
+            span {
+                color: rgba(239, 66, 57, 1);
+                font-family: grifter;
+                font-size: 38px;
+                line-height: 68.09px;
+                font-weight: 700;
+                background-color: rgba(239, 66, 57, 0.1);
+                border-radius: 4px;
+                padding: 0 8.51px;
+            }
+        }
+
+        p.text {
+            height: 81px;
+            font-size: 18px;
+            line-height: 27px;
+            font-weight: 400;
+            font-family: inter;
+            color: rgba(89, 89, 89, 1);
+            margin-bottom: 41px;
+        }
+
+        div.opts {
+            gap: 8px;
+            margin-bottom: 37px;
+
+
+            button.create2 {
+                border: 0;
+                border-radius: 40px;
+                background-color: rgba(239, 66, 57, 1);
+                color: white;
+                padding: 16px 24px;
+                font-family: inter;
+                font-size: 18px;
+                line-height: 21.78px;
+                font-weight: 500px;
+                cursor: pointer;
+
+            }
+
+            button.sign2 {
+                border: 0;
+                background-color: white;
+                color: black;
+                padding: 12px 24px;
+                font-family: inter;
+                font-size: 18px;
+                line-height: 21.78px;
+                font-weight: 500px;
+                cursor: pointer;
+            }
+        }
+
+
+        div.box-empower {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            p.empower {
+                font-family: inter;
+                font-size: 16px;
+                font-weight: 400px;
+                line-height: 24px;
+                height: 24px;
+                color: rgba(89, 89, 89, 1);
+
+            }
+
+            div.logos {
+                display: flex;
+                height: 38.4px;
+                gap: 60px;
+
+                img {
+                    height: 38.4px;
+
+                    /* .attentive {
+                        width: 112.8px;
+                    }
+
+                    .culture {
+                        width: 160.8px;
+                    }
+
+                    .maze {
+                        width: 113.6px;
+                    } */
+                }
+            }
+        }
+
+
+        div.right-container {
+            display: none;
         }
     }
+
+
+
 
 
 
@@ -78,7 +190,7 @@
             }
 
             #hosp-cards {
-                display: flex;
+                display: block;
                 gap: 80px;
             }
 
@@ -102,4 +214,338 @@
     }
 
 
+
+    div.profession-cards {
+
+        h1 {
+            text-align: center;
+            font-family: grifter;
+            font-size: 48px;
+            line-height: 57.6px;
+            font-weight: 700;
+            color: rgba(19, 2, 2, 1);
+            margin-bottom: 42px;
+        }
+
+
+        div.card2 {
+            display: block;
+            gap: 41px;
+
+
+            h2 {
+                font-family: grifter;
+                font-size: 20px;
+                line-height: 27px;
+                font-weight: 700;
+            }
+
+
+            img {
+                border-radius: 12px;
+            }
+        }
+
+    }
+
+
+
+
+
+    section.third {
+
+        h1 {
+            background-color: rgba(19, 2, 2, 1);
+            text-align: center;
+            font-family: grifter;
+            color: rgba(246, 246, 246, 1);
+            padding-top: 96px;
+            font-size: 48px;
+            line-height: 50.16px;
+
+
+            span {
+                color: rgba(239, 66, 57, 1);
+            }
+
+        }
+    }
+
+
+    div.cards {
+        background-color: rgba(19, 2, 2, 1);
+        padding: 42px 80px 96.92px 80px;
+        margin-bottom: 121px;
+
+        div.grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 18px;
+
+
+            div {
+                background-color: rgba(246, 246, 246, 1);
+                border-radius: 15.91px;
+                padding: 39.77px 0 52.01px 31.94px;
+
+
+                img {
+                    height: 63.63px;
+                    width: 63.88px;
+                    margin-bottom: 18.6px;
+                }
+
+
+                h2 {
+                    font-family: grifter;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 22.99px;
+                    margin-bottom: 22.34px;
+                }
+
+                p {
+                    font-family: inter;
+                    font-size: 17.5px;
+                    line-height: 21.18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+
+    section.fourth {
+        gap: 8px;
+        padding: 0;
+
+        h1 {
+            font-family: grifter;
+            font-size: 48px;
+            line-height: 57.6px;
+            margin-bottom: ;
+        }
+
+        h2 {
+            font-family: aeonik;
+            font-size: 24px;
+            line-height: 33.6px;
+            font-weight: 500;
+        }
+
+        p {
+            font-family: inter;
+            font-size: 18px;
+            line-height: 27px;
+            color: rgba(89, 89, 89, 1);
+        }
+
+
+        details {
+            border: 0;
+            border-bottom: 1px solid rgba(139, 139, 139, 0.23);
+            padding: 32px 0 35px 0;
+        }
+
+
+    }
+
+    summary::after {
+        content: url(./assests/images/plus.png);
+    }
+
+    details[open] summary::after {
+        content: url(./assests/images/line.png);
+    }
+
+
+    summary#option {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    section.fifth {
+        padding: 0;
+
+
+        div.get-box {
+            background-color: rgba(249, 215, 215, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 0;
+            border-radius: 16px;
+
+            div.get-started {
+
+                margin-bottom: 40px;
+
+                h1 {
+                    font-family: grifter;
+                    font-size: 48px;
+                    line-height: 50.16px;
+                    margin-bottom: 20px;
+
+                    span {
+                        background-color: rgba(239, 66, 57, 0.1);
+                        color: rgba(239, 66, 57, 1);
+                        border-radius: 4px;
+                        padding: 0 8.51px;
+                        font-size: 56.72px;
+                        line-height: 68.06px;
+                    }
+
+                }
+
+
+                p {
+                    font-family: inter;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: rgba(89, 89, 89, 1);
+                }
+
+
+            }
+
+
+
+            div.buttn {
+                display: flex;
+                justify-content: center;
+                gap: 16px;
+
+                .get {
+                    cursor: pointer;
+                    font-family: inter;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 23.86px;
+                    color: rgba(255, 255, 255, 1);
+                    padding: 16px 22px;
+                    border-radius: 32px;
+                    background-color: rgba(252, 75, 55, 1);
+                    border: 0;
+                }
+
+                .features {
+                    cursor: pointer;
+                    font-family: inter;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 23.86px;
+                    color: rgba(0, 0, 0, 1);
+                    padding: 16px 22px;
+                    border-radius: 32px;
+                    border: 1px solid;
+                    background-color: rgba(249, 215, 215, 0.2);
+                }
+            }
+        }
+
+    }
+
+
+    section.sixth {
+        padding: 0;
+        display: block;
+        gap: 312px;
+        margin-bottom: 60.98px;
+
+        div.top {
+            gap: 28px;
+
+            img {
+                margin-bottom: 28px;
+            }
+
+            p {
+                font-family: inter;
+                font-size: 17.5px;
+                line-height: 21.18px;
+                color: rgba(139, 139, 139, 1);
+                width: 462px;
+            }
+        }
+
+        div.navs {
+            display: flex;
+            gap: 161.5px;
+
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                h2 {
+                    font-family: grifter;
+                    font-size: 20px;
+                    line-height: 27PX;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgba(89, 89, 89, 1);
+                }
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    font-family: inter;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(89, 89, 89, 1);
+                }
+            }
+        }
+
+    }
+
+
+    section.seventh {
+        padding: 0;
+
+        div.line {
+            border: 0.1px solid rgba(244, 244, 244, 1);
+        }
+    }
+
+
+    footer {
+        padding: 60.02px 80px 60.98px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-family: inter;
+            font-size: 10px;
+            line-height: 21.18px;
+            color: rgba(139, 139, 139, 1);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+

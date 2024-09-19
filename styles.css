@@ -172,7 +172,7 @@ section.first {
             img {
                 height: 38.4px;
 
-                .attentive {
+                /* .attentive {
                     width: 112.8px;
                 }
 
@@ -182,7 +182,7 @@ section.first {
 
                 .maze {
                     width: 113.6px;
-                }
+                } */
             }
         }
     }
